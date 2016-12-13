@@ -33,8 +33,8 @@ round-up:(Round away from 0.) If all of the discarded digits are zero the result
 
 round-up:(ound away from 0.) If all of the discarded digits are zero the result is unchanged. Otherwise, the result coefficient should be incremented by 1 (rounded up).
 
-round-up：round-down相对应
+round-up：和round-down相对应
 
 round-05up:(Round zero or five away from 0.) The same as round-up, except that rounding up only occurs if the digit to be rounded up is 0 or 5, and after overflow the result is the same as for round-down.When a result is rounded, the coefficient may become longer than the current precision. In this case the least significant digit of the coefficient (it will be a zero) is removed (reducing the precision by one), and the exponent is incremented by one. This in turn may give rise to an overflow condition, which determines the result after overflow.
 
-round-05up：0和5时进1，其他情况阶段
+round-05up：0和5时进1，其他情况截断
