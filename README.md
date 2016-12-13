@@ -29,9 +29,8 @@ round-floor：（趋近于负无穷） 引入正负的概念
 round-half-down:If the discarded digits represent greater than half (0.5) of the value of a one in the next left position then the result coefficient should be incremented by 1 (rounded up). Otherwise (the discarded digits are 0.5 or less) the discarded digits are ignored.
 
 round-half-down：小于等于5舍去，大于5进1
-round-up:(Round away from 0.) If all of the discarded digits are zero the result is unchanged. Otherwise, the result coefficient should be incremented by 1 (rounded up).
 
-round-up:(ound away from 0.) If all of the discarded digits are zero the result is unchanged. Otherwise, the result coefficient should be incremented by 1 (rounded up).
+round-up:(Round away from 0.) If all of the discarded digits are zero the result is unchanged. Otherwise, the result coefficient should be incremented by 1 (rounded up).
 
 round-up：和round-down相对应
 
